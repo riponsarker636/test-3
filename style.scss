@@ -1,0 +1,82 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+$colour-1:#21B473;
+.btn{
+    background: $colour-1;
+    border-radius: 20px;
+    &:hover{
+        background: #3baf7b;
+    }
+}
+#nav{
+    padding: 3px 0;
+    margin: 0;
+    a{
+        color: $colour-1;
+        font-weight: 600;
+        font-size: 25px;
+    }
+ ul{
+     li{
+         padding: 0 10px;
+         a{
+             font-size: 18px;
+             color: black;
+             &:hover{
+                 color: $colour-1;
+             }
+         }
+     }
+ }
+}
+#first-sec{
+    background:linear-gradient(#dceee6,white);
+    background-size: cover;
+    width: 100%;
+    h5{
+        color: orangered;
+    }
+    h1{
+        font-weight: bold;
+        font-size: 45px;
+        span{
+            color: $colour-1;
+        }
+    }
+}
+.bg{
+    background:linear-gradient(#dceee6,white);
+    background-size: cover;
+    
+}
+#service{
+    .card:hover{
+        transform: scale(1.1);
+        transition: all 2s ease-in-out;
+        background: white;
+        box-shadow: 5px 5px 5px 1px #b3e4ce;
+    }
+}
+
+#on-co{
+    .card{
+        box-shadow: 5px 5px 5px 2px lightgrey;
+        border-radius: 10px;
+    }
+}
+#test{
+    img{
+        margin-left: 70%;
+    }
+}
+footer{
+    .col-md-4{
+        font-size: 50px;
+    }
+}

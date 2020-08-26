@@ -1,0 +1,93 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn {
+  background: #21B473;
+  border-radius: 20px;
+}
+
+.btn:hover {
+  background: #3baf7b;
+}
+
+#nav {
+  padding: 3px 0;
+  margin: 0;
+}
+
+#nav a {
+  color: #21B473;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+#nav ul li {
+  padding: 0 10px;
+}
+
+#nav ul li a {
+  font-size: 18px;
+  color: black;
+}
+
+#nav ul li a:hover {
+  color: #21B473;
+}
+
+#first-sec {
+  background: -webkit-gradient(linear, left top, left bottom, from(#dceee6), to(white));
+  background: linear-gradient(#dceee6, white);
+  background-size: cover;
+  width: 100%;
+}
+
+#first-sec h5 {
+  color: orangered;
+}
+
+#first-sec h1 {
+  font-weight: bold;
+  font-size: 45px;
+}
+
+#first-sec h1 span {
+  color: #21B473;
+}
+
+.bg {
+  background: -webkit-gradient(linear, left top, left bottom, from(#dceee6), to(white));
+  background: linear-gradient(#dceee6, white);
+  background-size: cover;
+}
+
+#service .card:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+  background: white;
+  -webkit-box-shadow: 5px 5px 5px 1px #b3e4ce;
+          box-shadow: 5px 5px 5px 1px #b3e4ce;
+}
+
+#on-co .card {
+  -webkit-box-shadow: 5px 5px 5px 2px lightgrey;
+          box-shadow: 5px 5px 5px 2px lightgrey;
+  border-radius: 10px;
+}
+
+#test img {
+  margin-left: 70%;
+}
+
+footer .col-md-4 {
+  font-size: 50px;
+}
+/*# sourceMappingURL=style.css.map */
